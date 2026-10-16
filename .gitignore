@@ -1,0 +1,57 @@
+# ===== 编译产物 =====
+*.o
+*.obj
+*.a
+*.lib
+*.elf
+*.map
+*.lst
+*.sym
+*.exe
+*.dll
+*.so
+*.pdb
+*.ilk
+*.d
+
+# ===== 系统镜像 / 磁盘镜像（体积大，只保留生成脚本）=====
+*.img
+*.ima
+*.iso
+*.raw
+*.vhd
+*.vmdk
+*.bin
+*.hrb
+*.sys
+
+# ===== 文档与电子书（版权 + 体积）=====
+*.pdf
+*.epub
+*.mobi
+*.djvu
+
+# ===== 工具链与提取产物（动辄几个 GB）=====
+.toolchain/
+dist/
+_extract/
+_scratch/
+_tools/
+toolchain/
+**/qemu/
+**/bochs/
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+*.swp
+*~
+.clangd/
+compile_commands.json
+.cache/
+
+# ===== 系统 =====
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.DS_Store
